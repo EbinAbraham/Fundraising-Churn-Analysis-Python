@@ -14,7 +14,7 @@ The objective of the project is determine which donating customers to an NGO wil
 
 <h3>Dataset</h3>
 
-The dataset consist of 8 different files which are merged together to obtain the final dataset on which analysis and modeling is done. The dataset used is private hence i am not uploading thee datasets. The details of columns are given below:
+<p>The dataset consist of 8 different files which are merged together to obtain the final dataset on which analysis and modeling is done. The dataset used is private hence i am not uploading thee datasets. The details of columns are given below:</p>
 
 
 
@@ -48,16 +48,16 @@ The dataset consist of 8 different files which are merged together to obtain the
 
 <h3>Processing</h3>
 
-Initially the data was divided into to time windows Independent window and the Dependent window. Based on the two time windows created the output variable (Churn) was determined. Normal data preprocessing steps of missing value imputation (median , mode)and creating new categories was used. Next Categorical variable were label encoded. The feature postcode was changed to frequency as the feature had high cardinality. Timestamp data were converted to ordinal for analysis purposes. Two models were used to classify, Logistic Regression and Random Forest.
+<p>Initially the data was divided into to time windows Independent window and the Dependent window. Based on the two time windows created the output variable (Churn) was determined. Normal data preprocessing steps of missing value imputation (median , mode)and creating new categories was used. Next Categorical variable were label encoded. The feature postcode was changed to frequency as the feature had high cardinality. Timestamp data were converted to ordinal for analysis purposes. Two models were used to classify, Logistic Regression and Random Forest.</p>
 
 ==================================================================================
 
 <h3>Result</h3>
 
-Logistic Regression and Random Forest was used for analysis. From the various metrics we found that Random Forest classifier was better option as Logistic Regressor had overfitted the data by a little. The details of the output from Random Forest Classifier is as follows:
+<p>Logistic Regression and Random Forest was used for analysis. From the various metrics we found that Random Forest classifier was better option as Logistic Regressor had overfitted the data by a little. The details of the output from Random Forest Classifier is as follows:</p>
 
-__Confusion Matrix__
-[[1017    3]
+__Confusion Matrix__<br>
+[[1017    3]<br>
 
  [ 6       63]]
 
